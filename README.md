@@ -12,6 +12,7 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
   - [x] GIF Walkthrough: 
+  https://github.com/ThoMot/CodePathLab7-8/blob/master/gifs/admin1.gif
   
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
