@@ -30,7 +30,7 @@ Time spent: **4** hours spent in total
     - Tested in version: 4.2.2
     - Fixed in version: 4.7.3
   - [x] GIF Walkthrough: 
-  <img src ="https://github.com/ThoMot/CodePathLab7-8/blob/master/gifs/XSSmp3Vulnerability.gif">
+  <img src="https://github.com/ThoMot/CodePathLab7-8/blob/master/gifs/XSSmp3Vulnerability.gif">
   
   - [x] Steps to recreate: 
       Add mp3 with embedded script in description
