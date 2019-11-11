@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **three vulnerabilities** affecting an old version of WordPress
 
@@ -43,6 +43,7 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.2.2
     - Fixed in version: 4.3.1
   - [x] GIF Walkthrough: 
+  <img src="https://github.com/ThoMot/CodePathLab7-8/blob/master/gifs/XSSinShortCode.gif">
   
   - [x] Steps to recreate: 
     Get an admin or editor to post the following short code format on their page: 
@@ -65,11 +66,11 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+I tried a lot of different vulnerabilities but a lot of them I could not get to work..
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2019] [Thora Mothes]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
