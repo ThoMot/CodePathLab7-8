@@ -24,12 +24,13 @@ Time spent: **X** hours spent in total
       - Now admin can run the script on accident and the attacker will have access to his account
   - [x] Affected source code:
     - [Link 1](https://wpvulndb.com/vulnerabilities/7945)
-2. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+2. Authenticated Cross-Site Scripting (XSS) via Media File Metadata
+  - [x] Summary: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2.2
+    - Fixed in version: 4.7.3
+  - [x] GIF Walkthrough: 
+  
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
