@@ -12,11 +12,18 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
   - [x] GIF Walkthrough: 
+      Attacker:
+  <img src="https://github.com/ThoMot/CodePathLab7-8/blob/master/gifs/attacker1.gif">
+      Admin:
   <img src ="https://github.com/ThoMot/CodePathLab7-8/blob/master/gifs/admin1.gif">
   
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [x] Steps to recreate: 
+      - add a comment with: <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
+      - make sure comment is longer than accepted length for database storage (64kb)
+      - Admin will approve comment
+      - Now admin can run the script on accident and the attacker will have access to his account
+  - [x] Affected source code:
+    - [Link 1](https://wpvulndb.com/vulnerabilities/7945)
 2. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
