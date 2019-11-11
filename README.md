@@ -31,10 +31,12 @@ Time spent: **4** hours spent in total
     - Fixed in version: 4.7.3
   - [x] GIF Walkthrough: 
   <img src ="https://github.com/ThoMot/CodePathLab7-8/blob/master/gifs/XSSmp3Vulnerability.gif">
-  - [ ] Steps to recreate: 
+  
+  - [x] Steps to recreate: 
       Add mp3 with embedded script in description
       Get an adming to make a new post and put this mp3 into a playlist on there
       when it is embedded the script is run
+      
   - [x] Affected source code:
     - [Link 1](https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html)
 3. Authenticated Shortcode Tags Cross-Site Scripting
