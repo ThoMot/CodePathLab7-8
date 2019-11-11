@@ -30,19 +30,27 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.2.2
     - Fixed in version: 4.7.3
   - [x] GIF Walkthrough: 
+  <img src ="https://github.com/ThoMot/CodePathLab7-8/blob/master/gifs/XSSmp3Vulnerability.gif">
+  - [ ] Steps to recreate: 
+      Add mp3 with embedded script in description
+      Get an adming to make a new post and put this mp3 into a playlist on there
+      when it is embedded the script is run
+  - [x] Affected source code:
+    - [Link 1](https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html)
+3. Authenticated Shortcode Tags Cross-Site Scripting
+  - [x] Summary: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2.2
+    - Fixed in version: 4.3.1
+  - [x] GIF Walkthrough: 
   
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-3. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [x] Steps to recreate: 
+    Get an admin or editor to post the following short code format on their page: 
+    This is a XSS attack[caption width="2" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(1)'">Click here!</a>
+    Could be perceived as a link but is not
+    
+  - [x] Affected source code: 
+    - [Link 1](https://wpvulndb.com/vulnerabilities/8186)
 
 ## Assets
 
